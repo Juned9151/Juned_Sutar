@@ -44,8 +44,8 @@
       <div class="home-content">
         <div class="text">
           <div class="text-one">Hello,</div>
-          <div class="text-two">I'm Juned Sutar</div>
-          <div class="text-three">Frontend Web Developer</div>
+          <div class="text-two">I'm </div>
+          <div class="text-three"><span class="auto-input" ></span></div>
           <div class="text-four">From Berlin</div>
         </div>
         <div class="button">
@@ -216,8 +216,15 @@
       </div>
     </footer>
 
-    <script src="script.js">
-      
-    </script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+     var typed = new typed(".auto-input", {
+      strings: ["Juned Sutar","Frontend developer", "UI designer"],
+      typeSpeed:100,
+      backSpeed:100,
+      loop:true
+     });
+   </script>
   </body>
 </html>
