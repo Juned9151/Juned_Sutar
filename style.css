@@ -527,6 +527,27 @@ footer .text span a:hover{
     width: 100%;
     font-size: 16px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+/* Custom Scroll Bar CSS */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background:var(--bg-scrollbar);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color);
+}
+
 }
 
 @media (max-width: 500px){
@@ -540,6 +561,29 @@ footer .text span a:hover{
     font-size: 50px;
     color: var(--primary-color);
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  /* Custom Scroll Bar CSS */
+  ::-webkit-scrollbar {
+      width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+      background:var(--bg-scrollbar);
+  }
+  ::-webkit-scrollbar-thumb {
+      background: var(--scrollbar-thumb);
+      border-radius: 12px;
+      transition: all 0.3s ease;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+      background: var(--primary-color);
+  }
+
+
+
 }
 
 
